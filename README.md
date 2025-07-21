@@ -39,12 +39,12 @@ It supports full CRUD features like
 After cloning the repository: 
 > npm install
 
-## Development (React + Webpack Dev Server)
+## Development (React + Webpack Dev Server opens on port 5000)
 > npm run start
 ## Build for production
 > npm run build
-## Start JSON Server (for API)
-> npm run server
+## Start JSON Server (for API) (opens on port 3000)
+> npm run server 
 
 # AI Usage 
 
