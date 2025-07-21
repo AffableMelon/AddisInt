@@ -1,6 +1,6 @@
 import axios from "axios";
-const url = "http://localhost:3000/songs";
-
+const base = process.env.API_BASE_URL;
+const url = `${base}/songs`;
 const getSongs = async ({ page, limit }) => {
   try {
     const songs = await axios.get(url, {
