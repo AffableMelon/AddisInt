@@ -1,0 +1,100 @@
+{
+  "songs": [
+    {
+      "id": "1",
+      "title": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "album": "A Night at the Opera",
+      "year": 1975,
+      "genre": "Rock"
+    },
+    {
+      "id": "2",
+      "title": "Billie Jean",
+      "artist": "Michael Jackson",
+      "album": "Thriller",
+      "year": 1982,
+      "genre": "Pop"
+    },
+    {
+      "title": "Imagine",
+      "artist": "John Lennon",
+      "album": "Imagine",
+      "year": 1971,
+      "genre": "Rock",
+      "id": "3"
+    },
+    {
+      "title": "Like a Rolling Stone",
+      "artist": "Bob Dylan",
+      "album": "Highway 61 Revisited",
+      "year": 1965,
+      "genre": "Rock",
+      "id": "4"
+    },
+    {
+      "id": "5",
+      "title": "Smells Like Teen Spirit",
+      "artist": "Nirvana",
+      "album": "Nevermind",
+      "year": 1991,
+      "genre": "Grunge"
+    },
+    {
+      "id": "6",
+      "title": "Purple Haze",
+      "artist": "Jimi Hendrix",
+      "album": "Are You Experienced",
+      "year": 1967,
+      "genre": "Rock"
+    },
+    {
+      "id": "7",
+      "title": "Respect",
+      "artist": "Aretha Franklin",
+      "album": "I Never Loved a Man the Way I Love You",
+      "year": 1967,
+      "genre": "Soul"
+    },
+    {
+      "id": "8",
+      "title": "Hey Jude",
+      "artist": "The Beatles",
+      "album": "The Beatles (White Album)",
+      "year": 1968,
+      "genre": "Rock"
+    },
+    {
+      "id": "9",
+      "title": "What's Going On",
+      "artist": "Marvin Gaye",
+      "album": "What's Going On",
+      "year": 1971,
+      "genre": "Soul"
+    },
+    {
+      "id": "10",
+      "title": "Strawberry Fields Forever",
+      "artist": "The Beatles",
+      "album": "Magical Mystery Tour",
+      "year": 1967,
+      "genre": "Rock"
+    },
+    {
+      "id": "11",
+      "title": "God Only Knows",
+      "artist": "The Beach Boys",
+      "album": "Pet Sounds",
+      "year": 1966,
+      "genre": "Rock"
+    },
+    {
+      "id": "12",
+      "title": "London Calling",
+      "artist": "The Clash",
+      "album": "London Calling",
+      "year": 1979,
+      "genre": "Punk"
+    }
+  ]
+}
