@@ -1,4 +1,4 @@
-##  Dependencies and Why
+#  Dependencies and Why
 
 ###  Babel
 I  used Babel to compile modern JavaScript (ES6+) which react uses into a version (ES5) that is compatible with older browsers ensuring the app runs reliably across most environments.
@@ -51,4 +51,8 @@ After cloning the repository:
 I used AI for most of the styling. As the app was a task for a short deadline i didn't want to stay long thinking about what it should look like.
 
 I also used AI with bugs that I ran to when setting up things like pagination as i wasn't familiar with the concept before and relied on scroll behaviour instead.
+
+# Note about Live Link
+
+You can find a live preview [here](https://addisint.onrender.com/)  
 
