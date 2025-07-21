@@ -4,6 +4,7 @@
  */
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const Dotenv = require("dotenv-webpack");
 const isProd = process.env.NODE_ENV === "production";
 // const webpack = require('webpack')
 module.exports = {
@@ -39,12 +40,12 @@ module.exports = {
   //
   module: {
     rules: [
-      {
+      /* {
         test: /\.css$/i,
         exclude: /node_modules/,
         include: path.resolve(__dirname, "src"),
         use: ["style-loader", "css-loader", "postcss-loader"],
-      },
+      }, */
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         exclude: /node_modules/,
@@ -57,6 +58,7 @@ module.exports = {
           loader: "babel-loader",
           options: {
             presets: ["@babel/preset-env", "@babel/preset-react"],
+            plugins: [require("@emotion/babel-plugin")],
           },
         },
       },
@@ -68,5 +70,6 @@ module.exports = {
       title: "Umm something?",
       template: "./src/index.html",
     }),
+    new Dotenv({ path: isProd ? "./.env.prod" : "./.env.dev" }),
   ],
 };
